@@ -1,0 +1,12 @@
+{
+  "name": "anim2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pom421 <mauguet.po@gmail.com>",
+  "license": "MIT"
+}
