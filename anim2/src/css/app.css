@@ -1,0 +1,34 @@
+body{
+  background-color: lightblue;
+}
+
+#content{
+  perspective: 200px;
+}
+
+.box, .box2{
+  display: flex;
+  margin: 40px auto;
+  width: 200px;
+  height: 200px;
+  background-color: lightcyan;
+  text-align:  center;
+  align-items: center; /* ou margin: auto sur les enfants */
+  transition: all 2s ease-in;  
+}
+
+.box > span, .box2 > span{
+  color: grey;
+  flex: 1 1 auto;
+  /*margin: auto;*/
+}
+.box:hover{
+  background-color: lightgreen;
+  transition: all 1s ease-out;
+  transform: rotateY(360deg)
+}
+
+.box2:hover{
+  transform: rotateX(90deg);
+  transition: all 1s ease;
+}

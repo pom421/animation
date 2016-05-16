@@ -1,3 +1,5 @@
+var qui = "vous";
+
 module.exports = {
- content: 'bonjour chez vous' 
+ content: `bonjour chez ${qui}` 
 }
