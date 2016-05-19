@@ -6,7 +6,8 @@ module.exports = {
     },
     devServer: {
         inline: true,
-        port: 3333,
+        port: 8082,
+        host: "10.75.204.133",
         publicPath: '/dist/'
     }, 
     module: {

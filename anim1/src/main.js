@@ -11,7 +11,7 @@ var conf = {
   easings: [
     'ease', 'ease-in-out', 'ease-in', 'ease-out', 'linear'
   ],
-  nbBalls: 5,
+  nbBalls: 15,
   maxDuration: 8
 }
 
@@ -37,6 +37,12 @@ class Ball {
     setInterval(function () {
       ball.DOMElement.classList.toggle('anim');
     }, ball.duration);
+    
+    // var anim = function(){
+    //   ball.DOMElement.classList.toggle('anim');
+    //   requestAnimationFrame(anim);
+    // };
+    // requestAnimationFrame(anim);
   }
 }
 
@@ -52,7 +58,6 @@ for (var i = 0; i < conf.nbBalls; i++) {
 balls.forEach(function (ball) {
   main.appendChild(ball.DOMElement);
 });
-var divs = document.querySelectorAll('.balle')
 
 balls.forEach(function (ball) {
   ball.launchInterval();
