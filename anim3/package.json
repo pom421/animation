@@ -1,0 +1,14 @@
+{
+  "name": "anim3",
+  "version": "1.0.0",
+  "description": "Une animtion vachement bien",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pom421 <mauguet.po@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "moment": "^2.13.0"
+  }
+}
